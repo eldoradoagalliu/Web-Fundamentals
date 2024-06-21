@@ -1,0 +1,57 @@
+.container {
+  font-family: cursive;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  border: 2px solid rgb(175, 173, 173);
+  margin: 60px 330px 400px 330px;
+  padding-bottom: 20px;
+}
+
+.box-1 {
+  width: 620px;
+  height: 80px;
+  background-color: #17a2b8;
+  margin-bottom: 30px;
+}
+
+.image1 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+  border: 3px solid white;
+  border-radius: 100%;
+  box-shadow: 1px 2px 2px gray;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 520;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.image2 {
+  height: 15px;
+  margin-right: 10px;
+}
+
+.location {
+  margin-left: 25px;
+}
+
+.image3 {
+  height: 15px;
+  padding-top: 8px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.info {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}

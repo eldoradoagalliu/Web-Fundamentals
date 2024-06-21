@@ -1,0 +1,40 @@
+.search, .symbol, .create_account {
+  margin-left: 40px;
+}
+
+.search {
+  border: 2px;
+  border-radius: 20px;
+  border-color: #7dc8c8;
+  border-style: double;
+  color: #7dc8c8;
+  background-color: #fff;
+  height: 35px;
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.symbol {
+  border: 0px;
+  border-radius: 50%;
+  border-color: #00d1b2;
+  border-style: inset;
+  color: #fff;
+  background-color: #00d1b2;
+  height: 35px;
+  width: 35px;
+  font-size: 25px;
+}
+
+.create_account {
+  border: 2px solid #000;
+  border-style: inset;
+  color: #fff;
+  background-color: #2b78e4;
+  height: 35px;
+  width: 175px;
+  font-size: 16px;
+  box-shadow: 4px 4px black;
+}

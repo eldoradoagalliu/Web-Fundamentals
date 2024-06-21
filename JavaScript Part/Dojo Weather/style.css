@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1000px;
+  height: 800px;
+  margin: 0px auto;
+  font-family: "Roboto", sans-serif;
+}
+
+nav, .header-block, .cookie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  color: white;
+  background-color: #9ec4f8;
+  height: 60px;
+  padding: 10px;
+}
+
+nav h1 {
+  font-size: 40px;
+}
+
+nav ul {
+  font-size: 24px;
+  margin-right: 40px;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.header-block {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 15px;
+}
+
+.header-block h2 {
+  font-size: 30px;
+}
+
+#t-select {
+  margin-left: 10px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.image-block {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.weather-box {
+  width: 180px;
+  height: 280px;
+  background-color: #efefee;
+  margin-right: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-box h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.weather-box img {
+  padding: 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.info {
+  font-size: 18px;
+}
+
+.weather-box ul {
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.cookie {
+  width: 885px;
+  height: 100px;
+  background-color: #efefee;
+  border: 3px solid black;
+  margin-left: 40px;
+}
+
+.cookie img {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.text-area {
+  width: 600px;
+  font-size: 18px;
+}
+
+.text-area h3 {
+  font-size: 20px;
+}
+
+.cookie button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #9ec4f8;
+  padding: 2px 8px;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  margin-right: 40px;
+}
+
+nav h1, .header-block h2, .image-block {
+  margin-left: 40px;
+}
+
+nav li, .temperature-block {
+  margin-right: 30px;
+}
+
+nav ul, .image-block ul, .weather-box ul {
+  list-style: none;
+  display: flex;
+}
+
+.red {
+  color: #ce2d2b;
+  margin-left: 20px;
+}
+
+.blue {
+  color: #3981e5;
+  margin-left: 60px;
+}

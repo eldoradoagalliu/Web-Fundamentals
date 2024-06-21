@@ -1,0 +1,95 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* An add (+) button */
+.add-button {
+  border: 0px;
+  border-radius: 50%;
+  border-color: #00d1b2;
+  border-style: inset;
+  color: #fff;
+  background-color: #00d1b2;
+  height: 35px;
+  width: 35px;
+  font-size: 25px;
+}
+
+/* Flex row and column classes */
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.col {
+  color: white;
+  background-color: rgba(15, 153, 95, 0.61);
+  flex: 1;
+  margin: 20px 20px 0px 0px;
+  padding: 20px 0px 0px 20px;
+  height: 40px;
+}
+
+/* Navigation bar */
+.nav {
+  background-color: rgb(76, 75, 75);
+  height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: white;
+  font-weight: 200;
+}
+
+.nav-links {
+  color: white;
+  font-weight: 300;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Hyperlink without underline and clean*/
+a {
+  color: rgba(255, 255, 255, 0.815);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn {
+  color: white;
+  background-color: rgba(27, 212, 203, 0.842);
+  width: 75px;
+  height: 25px;
+  box-shadow: 3px 3px black;
+}
+
+/* Profile image format class */
+.image-format {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Background page color class */
+body {
+  background-color: rgba(226, 218, 218, 0.856);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

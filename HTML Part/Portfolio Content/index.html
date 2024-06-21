@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      label textarea {
+        vertical-align: top;
+      }
+      
+      table,th,td {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Eldorado Agalliu</h1>
+    <img src="./image/portrait.png" alt="portrait" width="125" />
+    <div>
+      <img src="image/GitHub-Mark.png" alt="GitHub Logo" width="28" />
+      <a href="#">my github </a>&nbsp;
+      <img src="image/LinkedIn-Logo.png" alt="LinkedIn Logo" width="25" />
+      <a href="#">my linkedin</a>&nbsp;
+      <img src="image/Email-Icon.png" alt="Email Icon" width="25" />
+      <a href="#">my email</a>
+    </div>
+    <div>
+      <h3>Technologies</h3>
+      <div>
+        <table>
+          <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+          </tr>
+          <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>AJAX</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Mongoose</td>
+            <td>MongoDB</td>
+            <td>OOP</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>Unittest</td>
+            <td>React</td>
+            <td></td>
+            <td>Rest</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h3>Social Snakes</h3>
+      <img src="./image/Code-Icon.png" alt="Code Icon" width="50" />
+      <div>
+        Social Media App made in Python - <a href="#">code</a> |
+        <a href="#">deployed</a>
+      </div>
+    </div>
+    <h2>Contact Me</h2>
+    <form action="/process" method="post">
+      <label>Name:</label>
+      <input type="text" name="name" />&nbsp;&nbsp;&nbsp;
+      <label>Email:</label>
+      <input type="text" name="email" />
+      <p>
+        <label
+          >Message: <textarea name="message" cols="30" rows="3"></textarea>
+        </label>
+      </p>
+      <input type="submit" value="Send Message" />
+    </form>
+  </body>
+</html>

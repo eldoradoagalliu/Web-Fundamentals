@@ -1,0 +1,22 @@
+.box {
+  border: 3px solid black;
+  width: 340px;
+  padding: 10px;
+  font-family: cursive;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 70px;
+}
+
+.box button {
+  font-family: sans-serif;
+  background-color: #fed967;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 3px 4px black;
+  margin-left: 30px;
+}
